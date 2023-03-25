@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	print_most_numbers();
+	print_main_numbers();
 	return (0);
 }
