@@ -3,9 +3,9 @@
 
 /**
  * struct dog - a dog's  Infoformation
- * @name: First 
- * @age: Second 
- * @owner: Third 
+ * @name: First
+ * @age: Second
+ * @owner: Third
  *
  * Description: Longer description
  */
