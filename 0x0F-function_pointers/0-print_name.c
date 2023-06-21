@@ -8,8 +8,10 @@
  **/
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)
+    /* Check for NULL Pointers Or Empty Name */
+	if (name == NULL || f == NULL || *name == '\0')
 		return;
 
-	f(name);
+    /* Call The Function Pointer With The Name As An Argument */
+	(*f)(name);
 }
